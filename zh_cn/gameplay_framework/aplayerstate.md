@@ -7,7 +7,7 @@ PlayerState 也会复制给每个人，并可用于在其他客户端上检索�
 您可能想要存储在 PlayerState 中的示例信息：
 
 - PlayerName - 玩家的当前姓名
-- 得分 - 玩家当前得分
+- Score - 玩家当前得分
 - Ping - 玩家当前的 ping
 - TeamID - 玩家所在球队的ID
 - 或其他玩家可能需要了解的其他复制信息
