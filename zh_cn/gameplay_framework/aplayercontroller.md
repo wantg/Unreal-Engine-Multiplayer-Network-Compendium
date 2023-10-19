@@ -3,7 +3,7 @@
 APlayerController 类可能是我们遇到的最有趣、最复杂的类。它也是许多客户端逻辑的中心，因为这是客户端实际"拥有"的第一个类。
 
 PlayerController 可以被视为玩家的"输入"。它是玩家与服务器的链接。这进一步意味着每个客户端都有一个 PlayerController。
-客户端的 PlayerController 仅存在于其端以及服务器上。客户端无法访问其他客户端的 PlayerController。
+客户端的 PlayerController 仅存在于自己一端以及服务器上。客户端无法访问其他客户端的 PlayerController。
 
 每个客户端只知道自己的 PlayerController！
 
