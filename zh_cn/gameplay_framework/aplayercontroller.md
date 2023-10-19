@@ -23,7 +23,7 @@ PlayerController 可以被视为玩家的"输入"。它是玩家与服务器的�
 - 在客户端上调用它会返回客户端的PlayerController
 - 在专用服务器上调用它将返回第一个客户端的 PlayerController
 
-"0"以外的其他数字将不会返回客户端的其他客户端的 PlayerController。该索引适用于本地玩家（分屏），我们在此不做介绍。
+"0"以外的其他数字将不会为某个客户端返回其他客户端的 PlayerController。该索引适用于本地玩家（分屏），我们在此不做介绍。
 
 ## 示例和用法​
 
