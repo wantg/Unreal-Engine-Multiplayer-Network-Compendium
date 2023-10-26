@@ -37,7 +37,7 @@ Pawn 的子类 ACharacter 经常被使用，因为它带有一个已经联网的
 
 由于这是一个多人游戏纲要，我希望您了解 UserWidgets，或者至少在其他地方阅读有关它们的信息。
 
-假设我们的"BP_Character"类上有一个"Health"和"MaxHealth"变量，全部设置为复制（如果 MaxHealth 永远不会改变运行时，您可以跳过复制）。
+假设我们的"BP_Character"类上有一个"Health"和"MaxHealth"变量，全部设置为复制（如果 MaxHealth 运行时永远不会改变，您可以跳过复制）。
 
 现在，在 UserWidget 和 ProgressBar 内部创建"BP_Character"引用变量后，我们可以将该条的百分比绑定到以下函数：
 
