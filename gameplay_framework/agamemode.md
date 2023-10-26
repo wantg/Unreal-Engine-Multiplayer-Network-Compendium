@@ -31,7 +31,7 @@ For multiplayer scenarios, the GameMode also has some interesting functions that
 
 ## Blueprint Examples​
 
-Functions​
+### Functions​
 
 The first stop we gonna take is the Override Function section of the Blueprint version:
 
@@ -68,7 +68,8 @@ Well, it is. These GameMode functions are working hand in hand with the GameStat
 
 This is just to give you a point to manage the MatchState unreachable by any client since the GameMode only exists on the server!
 
-Variables​
+### Variables​
+
 The GameMode also has important variables you can and want to use.
 
 This is the list of already inherited variables. Some of them can be set via the ClassDefaults of the GameMode Blueprint:
