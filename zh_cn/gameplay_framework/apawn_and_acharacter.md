@@ -63,7 +63,7 @@ Pawn 的子类 ACharacter 经常被使用，因为它带有一个已经联网的
 
 对于 C++ 示例，我不会重新创建 UserWidget 示例。要让 UserWidgets 在 C++ 中工作需要做太多的样板文件，我不想在这里讨论这个。
 
-所以我们将重点关注占有和伤害事件。在C++中，两个Possess事件被称为：
+所以我们将重点关注 Possess 和 Damage 事件。在C++中，两个Possess事件被称为：
 
 ``` cpp
 virtual void PossessedBy(AController* NewController);
