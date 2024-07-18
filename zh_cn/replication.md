@@ -79,14 +79,14 @@ DOREPLIFETIME_CONDITION(ATestPlayerCharacter, Health, COND_OwnerOnly);
 
 | Condition | Description |
 | --------- | ----------- |
-|COND_InitialOnly        | This property will only attempt to send on the initial bunch |
-|COND_OwnerOnly          | This property will only send to the Actor's owner |
-|COND_SkipOwner          | This property send to every connection EXCEPT the owner |
-|COND_SimulatedOnly      | This property will only send to simulated Actors |
-|COND_AutonomousOnly     | This property will only send to autonomous Actors |
-|COND_SimulatedOrPhysics | This property will send to simulated OR bRepPhysics Acto |
-|COND_InitialOrOwner     | This property will send on the initial bunch, or to the Actor's owner |
-|COND_Custom             | This property has no particular condition, but wants the ability to toggle on/off via SetCustomIsActiveOverride |
+|COND_InitialOnly        | 只会尝试发送初始组 |
+|COND_OwnerOnly          | 只会发送给 Actor 的所有者 |
+|COND_SkipOwner          | 发送到除所有者之外的每个连接 |
+|COND_SimulatedOnly      | 只会发送给 simulated Actors |
+|COND_AutonomousOnly     | 只会发送给 autonomous Actors |
+|COND_SimulatedOrPhysics | 将发送到 simulated 或 bRepPhysics Actor |
+|COND_InitialOrOwner     | 将发送到初始组，或发送给 Actor 的所有者 |
+|COND_Custom             | 没有特定条件，但希望能够通过 SetCustomIsActiveOverride 打开或关闭 |
 
 重要的是要了解整个复制过程仅适用于从服务器到客户端，而不是相反。
 
